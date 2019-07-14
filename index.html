@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width" initial-scale="1.0">
+<title>Calculator</title>
+<script src="script.js"></script>                    <!--need to link-->
+<link rel="stylesheet" type="text/css" href="styles.css">                        
+</head>
+<body>
+
+<fieldset>
+<legend style="text-align: center"><h3>A Simple Calculator</legend></h3></legend>
+
+<div class="container">
+       <form name="cal">
+       <div class="ans">
+              <input type="text" name="view" id="view" >
+               </div>
+<div class="num">
+<p> <span> <button type="button" value ="7" onclick="cal.view.value += '7'">7</button>
+   <button type="button" value ="4"  onclick="cal.view.value += '4'">4</button>
+   <button type="button" value ="9" onclick="cal.view.value += '9'">9 </button></span></p>
+
+   <p>  <span> <button type="button" value ="4"  onclick="cal.view.value += '4'">4 </button>
+       <button type="button" value ="5"   onclick="cal.view.value += '5'">5 </button>
+       <button type="button"value ="6"   onclick="cal.view.value += '6'">6 </button></span></p>
+
+       <p>  <span>  <button type="button"value ="1"  onclick="cal.view.value += '1'">1 </button>
+           <button type="button"value ="2"  onclick="cal.view.value += '2'">2 </button>
+           <button type="button"value ="3"   onclick="cal.view.value += '3'">3 </button></span></p>
+
+           <p>  <span> <button type="button" onclick="cal.view.value += '.'">.</button>
+               <button type="button" value="0"   onclick="cal.view.value +='0'">0</button>
+               <input type="button" class="operator"value= "="   onclick="cal.view.value = eval(cal.view.value)" ></span></p>
+           </div>
+<div class="operator">
+   <button type="reset" value ="reset" onclick="resfunction() ">DEL</button>
+   <button type="button" value ="/" onclick="divfunction()">/</button>
+   <button type="button" value ="*" onclick="mulfunction()">x</button>
+   <button type="button" value ="-" onclick="subfunction()">-</button>
+   <button type="button" value="+" onclick="addfunction()" >+</button>
+   <button type="button" value ="AC" onclick="erafunction() ">AC</button>
+</div>
+</form>
+</div>
+</fieldset>
+</body>
+</html>
