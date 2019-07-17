@@ -25,8 +25,8 @@ fieldset{
   background-image: linear-gradient(to bottom right, rgb(14, 36, 4) ,rgb(107, 136, 107));
   border-radius:20px;
 }
-legend{
+/* legend{
   color: rgb(113, 133, 113);
   font-size: 20px;
   text-shadow: 2px 3px 3px white;
-}
+} */
