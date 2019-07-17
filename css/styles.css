@@ -18,4 +18,5 @@ fieldset{
   width:30%;
   margin:0 auto;
   box-shadow: 5px 5px 5px rgb(81, 117, 117);
+  background-image: linear-gradient(to bottom right, rgb(14, 36, 4) ,rgb(107, 136, 107));
 }
