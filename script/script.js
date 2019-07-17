@@ -13,6 +13,6 @@ function divfunction(){
 function resfunction(){
     document.getElementById("view").value += " ";
 }
-// function erafunction(){
-//     document.cal.view.value= document.cal.view.value.substr(0,document.cal.view.value.length-1)
-// }
+function erafunction(){
+    document.cal.view.value= document.cal.view.value.substr(0,document.cal.view.value.length-1)
+}
